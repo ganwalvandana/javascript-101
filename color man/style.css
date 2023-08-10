@@ -1,0 +1,50 @@
+#human {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box {
+    border: 2px solid black;
+}
+
+#face {
+    width: 100px;
+    height: 120px;
+}
+
+#tummy {
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+#legs {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+#leg1, #leg2 {
+    width: 60px;
+    height: 120px;
+    margin: 20px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px 400px;
+    
+}
+
+#buttons button {
+    padding: 40px;
+}
+
+.highlighted-box {
+    border: 4px solid black !important;
+}

@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(235, 247, 247);
+}
+
+h3{
+    font-size: 40px;
+    color: rgb(128, 4, 133);
+}
+
+button{
+    padding: 40px;
+    font-size: 30px;
+    margin-left: 40px;
+    background-color: rgb(176, 250, 180);
+    color: rgb(129, 4, 4);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: cyan;
+    color: rgb(12, 243, 89);
+}
